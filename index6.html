@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pages Web Interactives</title>
+  <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue sur ma page interactive !</h1>
+    <button id="themeToggle">Mode clair / sombre</button>
+  </header>
+
+  <main>
+    <!-- Section FAQ pliable -->
+    <section id="faq">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3 class="question">Quelle est la capitale du Togo ?</h3>
+        <p class="answer">Lomé</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="question">Combien de continents y a-t-il ?</h3>
+        <p class="answer">7 continents</p>
+      </div>
+    </section>
+
+    <!-- Section Boutons interactifs -->
+    <section id="boutons">
+      <h2>Boutons interactifs</h2>
+      <button id="btnMessage">Cliquez-moi pour un message</button>
+      <p id="message"></p>
+    </section>
+
+    <!-- Section Formulaire avec validation -->
+    <section id="formulaire">
+      <h2>Formulaire d'inscription</h2>
+      <form id="monFormulaire">
+        <input type="text" id="nom" placeholder="Nom">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="mdp" placeholder="Mot de passe">
+        <button type="submit">Envoyer</button>
+        <p id="erreur"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script6.js"></script>
+</body>
+</html>
